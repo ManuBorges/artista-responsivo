@@ -1,0 +1,45 @@
+section {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+} 
+h1 {
+	font-size: 60px;
+}
+p {
+	font-size: 20px;
+}
+.mapa {
+	margin-top: 30px;
+}
+	@media (max-width: 540px)  {
+		.mapa {
+			width: 100%;
+		}
+.video {
+	margin-top: 30px;
+}
+	@media (max-width: 540px)  {
+		.video {
+			width: 100%;
+		}
+	}
+
+body {
+	background: #A9A9A9;
+}
+	@media (max-width: 640px) {
+		body {
+			background: red;
+	}
+}
+.foto {
+	width: 200px;
+}
+	@media (max-width: 540px) {
+	body {
+		background: tomato;
+}	}
